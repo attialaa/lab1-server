@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-# Mac system files
+# macOS system files
 .DS_Store
 .Trash/
 .CFUserTextEncoding
@@ -22,22 +7,31 @@ target/
 # Node.js
 node_modules/
 npm-debug.log
+package-lock.json
 
 # Python
 venv/
 __pycache__/
 *.pyc
 
-# Temporary / swap files
+# Maven / Java
+target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.vscode/
+
+# Temporary / backup files
 *.swp
 *.swo
+*.swo~
+*.swo.bak
+*.backup
+*.tmp
+*.~ 
 
-# IDEs / editors
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
 
-# Any other files you don’t want tracked
-*.log
 
