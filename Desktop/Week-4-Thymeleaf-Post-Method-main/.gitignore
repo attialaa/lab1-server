@@ -1,37 +1,41 @@
-# macOS system files
+# macOS
 .DS_Store
 .Trash/
-.CFUserTextEncoding
 .fseventsd/
+.CFUserTextEncoding
 
-# Node.js
+# Node
 node_modules/
 npm-debug.log
 package-lock.json
+yarn.lock
 
 # Python
 venv/
 __pycache__/
 *.pyc
 
-# Maven / Java
+# Java / Maven
 target/
-*.log
 *.class
 *.jar
 *.war
 *.iml
+.mvn/
 .idea/
 .vscode/
 
-# Temporary / backup files
+# Logs and temp
+*.log
 *.swp
 *.swo
-*.swo~
-*.swo.bak
-*.backup
 *.tmp
-*.~ 
+*.backup
 
-
+# IDE / editor files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.idea/
+*.DS_Store
 
